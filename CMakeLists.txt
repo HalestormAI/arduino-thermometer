@@ -24,6 +24,9 @@ set(${PROJECT_NAME}_SKETCH arduino_thermometer.ino)
 ### Additional settings to add non-standard or your own Arduino libraries.
 # For this example (libs will contain additional arduino libraries)
 # An Arduino library my_lib will contain files in libs/my_lib/: my_lib.h, my_lib.cpp + any other cpp files
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/modules)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/modules)
+
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib)
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib)
 
