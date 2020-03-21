@@ -2,6 +2,7 @@
 #include <Timer/Timer.h>
 #include <display/display.h>
 #include <thermistor/thermistor.h>
+#include <Arduino.h>
 
 Timer t;
 
