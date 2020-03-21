@@ -24,3 +24,15 @@ The thermistor is a simple addition, connect to the 5v and ground rails, then se
 I hope it's fairly self explanatory.
 
 Works from manual testing, but it needs automated tests...
+
+## Licenses
+
+See the [LICENSE](LICENSE) file for more information.
+
+Note that in the `lib/Timer` directory, I've bundled the Timer library from Arduino Playground:
+
+https://playground.arduino.cc/Code/Timer/
+
+https://github.com/JChristensen/Timer
+
+All code there belongs to the respective authors and IS NOT covered by the license the rest of this code is under.
